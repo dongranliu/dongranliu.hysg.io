@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dongranliu/dongranliu.hysg.io.svg?branch=master)](https://travis-ci.org/dongranliu/dongranliu.hysg.io)
+[![Build Status](https://travis-ci.org/dongranliu/dongranliu.hysg.io.svg?branch=source)](https://travis-ci.org/dongranliu/dongranliu.hysg.io)
 
 ## 简介
 
