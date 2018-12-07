@@ -27,4 +27,4 @@ branches:
     - source
 env:
  global:
-   - GH_REF: https://github.com/dongranliu/dongranliu.hysg.io
+   - GH_REF: https://github.com/dongranliu/dongranliu.github.io
