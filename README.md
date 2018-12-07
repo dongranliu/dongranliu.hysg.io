@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dongranliu/dongranliu.hysg.io.svg?branch=master)](https://travis-ci.org/dongranliu/dongranliu.hysg.io)
+
 ## 简介
 
 我的博客
