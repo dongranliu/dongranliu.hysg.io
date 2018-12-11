@@ -1,0 +1,101 @@
+---
+title: pyenv部署python多版本
+date: 2017-05-23 00:36:25
+tags: python
+permalink: 2d0e324e1303a9a0d6bdaf317c31f0c3
+---
+### pyenv简介
+pyenv让你可以轻松地在不同版本的Python之间切换。pyenv使用起来很简单，并且遵循了UNIX传统的单一用途工具。
+<!--more-->
+
+### 系统版本
+
++ centos 7.2
++ ubuntu 16.04 LTS
+
+### 开始安装
+#### 解决依赖
+
++ centos
+
+```
+yum install gcc zlib-devel bzip2 bzip2-devel \
+            readline-devel sqlite sqlite-devel \
+            openssl-devel tk-devel readline-devel xz xz-devel git -y
+```
+
++ ubuntu
+
+```
+sudo apt-get install make build-essential libssl-dev zlib1g-dev \
+                     libbz2-dev libreadline-dev libsqlite3-dev \
+                     wget curl llvm libncurses5-dev xz-utils tk-dev sqlite git
+```
+
+#### 新建用户
+pyenv使用普通用户就能安装，所以就直接使用普通用户身份安装并使用
+```
+// 新建用户
+useradd $USER
+// 切换到普通用户
+su $USER
+// 回到当前用户的家目录cd
+```
+#### 安装pyenv
+```
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+```
+#### 设置环境变量
+修改配置文件
+```
+// centos系统
+vim .bash_profile
+// ubuntu系统
+vim .basrc
+PATH=~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+// 重读配置文件
+source .bash_profile
+```
+#### 部署多python版本
+可以新建一个目录做为一个python版本
+```
+mkdir python35
+cd python35
+pyenv install -v 3.5.3
+pyenv local 3.5.3
+// 升级pip
+pip install --upgrade pip
+```
+
+#### 建立python虚拟环境
+使用 pyenv 建立一个虚拟环境，
+```
+pyenv virtualenv 3.6.6 $NAME
+```
+切换到虚拟环境里
+
+```
+pyenv activate $NAME
+```
+
+从虚拟环境切出
+
+```
+pyenv deactivate
+```
+
+查看 pyenv 管理的所有版本
+
+```
+pyenv versions
+```
+
+### 常见问题
+如果感觉命令下载的速度太慢，可以提前下载好python源码包
+```
+mkdir ~/.pyenv/cache
+// 把下载好的python包放在cache目录里面
+cd ~/.pyenv/cache
+```

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dongranliu/dongranliu.hysg.io.svg?branch=source)](https://travis-ci.org/dongranliu/dongranliu.hysg.io)
+[![Build Status](https://travis-ci.org/dongranliu/dongranliu.github.io.svg?branch=source)](https://travis-ci.org/dongranliu/dongranliu.github.io)
 
 ## 简介
 

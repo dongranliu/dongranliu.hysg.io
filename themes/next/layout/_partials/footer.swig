@@ -45,3 +45,8 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<div style="text-align:center;width:100%;height:50">
+  <p><a href="http://www.miitbeian.gov.cn/" rel="nofollow">豫ICP备 18035030 号 - 1</a></p>
+  <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41018402000412" rel="nofollow">豫公网安备 41018402000412 号</a></p>
+<div>
