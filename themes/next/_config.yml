@@ -105,7 +105,7 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-  issues: github
+  issues: fa-github
 
 
 # ---------------------------------------------------------------
