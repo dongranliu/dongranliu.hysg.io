@@ -16,7 +16,6 @@ mariadb> SELECT VERSION();
 1 row in set
 ```
 
-<!--more-->
 
 ### 新建用户
 在客户端登录mariadb数据库，使用sql命令新建用户

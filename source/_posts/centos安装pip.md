@@ -7,7 +7,6 @@ permalink: 2d261affc14ef8960fb0c2dd554bf7c2
 ### pip简介
 pip为包管理器，跟linux上众多的包管理器的功能大致相同，就是对包进行管理，使得包的安装，更新和卸载更容易。在python2.7.9以上和3.4以上自带pip包管理器。
 
-<!--more-->
 
 ### pip安装
 首先去下载geit.pip.py文件

@@ -10,7 +10,7 @@ permalink: 5e9fb620725e9c4b79e7cfb04aa397ab
 
 ### docker简介
 Docker是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
-<!--more-->
+
 ### 安装docker
 centos 7.x版本才支持docker，低于centos 7的版本不正常docker，所以要使用centos 7版本。
 
