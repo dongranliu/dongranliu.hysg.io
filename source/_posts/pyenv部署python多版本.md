@@ -41,6 +41,17 @@ su $USER
 // 回到当前用户的家目录cd
 ```
 #### 安装pyenv
+
+*2019年1月24日更新*
+
+安装pyenv
+
+```
+curl https://pyenv.run | bash
+```
+
+~~下面是老方法~~
+
 ```
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
