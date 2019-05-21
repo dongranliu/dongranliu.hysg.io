@@ -37,7 +37,7 @@ ssh-keygen -trsa -b4096
 ```
 秘钥建立步骤：
 
-![建立ssh公钥](https://img.hysg.top/img/2018/09/29/b842dcc6.jpg)
+![建立ssh公钥](https://tebak.oss-cn-hangzhou.aliyuncs.com/img/2018/09/29/b842dcc6.jpg)
 
 其中
 ```
@@ -52,11 +52,11 @@ ssh-keygen -trsa -b4096
 
 在 xshell，工具–> 新建用户秘钥生成向导
 
-![生成秘钥](https://img.hysg.top/img/2018/09/29/9702f5f1.jpg)
+![生成秘钥](https://tebak.oss-cn-hangzhou.aliyuncs.com/img/2018/09/29/9702f5f1.jpg)
 
 最后把公钥导入到服务器.ssh/authorized_keys文件中
 
-![建立公钥](https://img.hysg.top/img/2018/09/29/b4b87ef2.jpg)
+![建立公钥](https://tebak.oss-cn-hangzhou.aliyuncs.com/img/2018/09/29/b4b87ef2.jpg)
 
 需要注意的是
 ```

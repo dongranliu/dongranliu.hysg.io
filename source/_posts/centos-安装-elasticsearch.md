@@ -67,4 +67,4 @@ curl http://127.0.0.1:9200/
 ```
 返回
 
-![elasticsearch-hello-world](https://img.hacpai.com/pipe/hysg/hysg/hysg/8fa04cf0a82441f7a94415d1b5cf166a.png)
+![elasticsearch-hello-world](https://tebak.oss-cn-hangzhou.aliyuncs.com/img/2018/10/18/9b8c4d8b.jpg)

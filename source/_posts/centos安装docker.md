@@ -86,4 +86,4 @@ Server:
 $docker run hello-world
 ```
 
-![输出hello world](https://img.hysg.top/img/2018/10/08/01af868c.jpg)
+![输出hello world](https://tebak.oss-cn-hangzhou.aliyuncs.com/img/2018/10/08/01af868c.jpg)
