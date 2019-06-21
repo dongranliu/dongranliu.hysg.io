@@ -94,7 +94,7 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
+  post: true
   language: zh
 
 # `Follow me on GitHub` banner in the top-right corner.
@@ -109,7 +109,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 # Disable Baidu transformation on mobile devices.
-disable_baidu_transformation: false
+disable_baidu_transformation: true
 
 # Set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -159,9 +159,10 @@ baidu_push: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
+  issues: https://github.com/dongranliu/dongranliu.github.io/issues || info
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -262,7 +263,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
