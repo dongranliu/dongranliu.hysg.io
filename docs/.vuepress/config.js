@@ -14,6 +14,6 @@ module.exports = {
     },
     sidebar: [
       ['/', '首页'],
-      ['/blog/FirstBlog.md', '我的第一篇博文']
+      ['/blog/firstblog.md', '我的第一篇博文']
     ]
 }

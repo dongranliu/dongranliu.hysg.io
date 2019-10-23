@@ -1,9 +1,10 @@
 ---
 home: true
 heroText: 回忆时光博客
-tagline: 博客
+tagline: 回忆上一秒
+heroImage: /1.jpg
 actionText: 查看博文
-actionLink: /blog/FirstBlog.md
+actionLink: /blog/firstblog.md
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

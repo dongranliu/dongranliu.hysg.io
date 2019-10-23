@@ -3,19 +3,18 @@ node_js: 10.16.0
 
 # S: Build Lifecycle
 install:
-  - npm install
+  - npm cli
 
 #before_script:
  # - npm install -g gulp
 
 script:
-- hexo clean
-- hexo generate
+- npm run docs:build
 
-after_script:
-  - cd ./public
+# after_script:
+  - cd ./docs/.vuepress/dist/
   - git init
-  - git config user.name "hysg"
+  - git config user.name "dongranliu"
   - git config user.email "hysg95324@gmail.com"
   - git add .
   - git commit -m "update post"
@@ -25,6 +24,7 @@ after_script:
 branches:
   only:
     - source
+
 env:
  global:
    - GH_REF: github.com/dongranliu/dongranliu.github.io
