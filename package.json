@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/dongranliu/dongranliu.github.io/issues"
   },
-  "homepage": "https://github.com/dongranliu/dongranliu.github.io#readme"
+  "homepage": "https://github.com/dongranliu/dongranliu.github.io#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-theme-reco": "^1.1.0"
+  }
 }
