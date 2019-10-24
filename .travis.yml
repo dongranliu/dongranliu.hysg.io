@@ -12,7 +12,7 @@ install:
 script:
 - npm run docs:build
 
-# after_script:
+after_script:
   - cd ./docs/.vuepress/dist/
   - git init
   - git config user.name "dongranliu"
