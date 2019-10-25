@@ -46,12 +46,6 @@ module.exports = {
         icon: 'reco-account'
       }
     ],
-    blogConfig: {
-      tag: {
-        location: 2, // 在导航栏菜单中所占的位置，默认3
-        text: '标签' // 默认文案 “标签”
-      },
-    }
   },
   markdown: {
     lineNumbers: true
