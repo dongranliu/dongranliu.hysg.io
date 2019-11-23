@@ -1,8 +1,10 @@
+## 构建状态
+
 [![Build Status](https://travis-ci.org/dongranliu/dongranliu.github.io.svg?branch=source)](https://travis-ci.org/dongranliu/dongranliu.github.io)
 
 ## 简介
 
-我的博客
+[我的博客](https://www.array.fun/)
 
 ## 分支
 
