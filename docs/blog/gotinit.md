@@ -1,6 +1,6 @@
 ---
 title: Go环境配置
-date: 2019-11-24 18:30
+date: 2019-11-24
 sidebar: 'auto'
 categories:
  - linux

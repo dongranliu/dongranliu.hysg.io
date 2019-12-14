@@ -1,6 +1,6 @@
 ---
 title: 开始用vuepress
-date: 2019-10-24 18:10
+date: 2019-10-24
 sidebar: 'auto'
 categories:
  - hello-world

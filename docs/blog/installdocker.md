@@ -1,6 +1,6 @@
 ---
 title: 安装docker
-date: 2019-11-24 02:00
+date: 2019-11-24
 sidebar: 'auto'
 categories:
  - linux
