@@ -26,19 +26,19 @@ MongoDB是一个文档数据库，它是为方便开发和扩展而设计的。
 
 首先拉取镜像
 
-```shell
+```bash
 docker pull mongodb
 ```
 
 运行容器，把容器端口映射到宿主机上，并且把容器数据持久化到宿主机硬盘上
 
-```shell
+```bash
 docker run --name mongodb -p27017:27017 -v /data/db:/data/db -d mongo
 ```
 
 这样mongodb容器，就运行起来了，查看已经运行的容器
 
-```shell
+```bash
 docker ps
 ```
 
@@ -51,7 +51,7 @@ docker ps
 
 输入容器ID，进入容器内部，与mongodb数据库进行交互
 
-```shell
+```bash
 docker exec -it $containerid bash
 ```
 
@@ -59,6 +59,6 @@ docker exec -it $containerid bash
 
 如果容器无法启动，可以查看容器日志，获取更多帮助信息
 
-```shell
+```bash
 docker logs $containerid
 ```
