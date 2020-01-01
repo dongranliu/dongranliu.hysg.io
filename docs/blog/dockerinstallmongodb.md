@@ -10,7 +10,7 @@ publish: true
 ---
 ## mongodb介绍
 
-MongoDB是一个文档数据库，它是为方便开发和扩展而设计的。
+MongoDB是一个非关系型文档数据库，它是为方便开发和扩展而设计的。
 
 ## mongodb特点
 
