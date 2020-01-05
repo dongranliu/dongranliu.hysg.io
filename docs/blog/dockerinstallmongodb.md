@@ -30,10 +30,10 @@ MongoDB是一个非关系型文档数据库，它是为方便开发和扩展而�
 docker pull mongodb
 ```
 
-运行容器，把容器端口映射到宿主机上，并且把容器数据持久化到宿主机硬盘上
+运行容器，把容器端口映射到宿主机上，并且把容器数据持久化到宿主机硬盘上,设置时区为中国标准时间
 
 ```bash
-docker run --name mongodb -p27017:27017 -v /data/db:/data/db -d mongo
+docker run --name mongodb -p27017:27017 -v /data/db:/data/db -v /etc/localtime:/etc/localtime -d mongo
 ```
 
 这样mongodb容器，就运行起来了，查看已经运行的容器
