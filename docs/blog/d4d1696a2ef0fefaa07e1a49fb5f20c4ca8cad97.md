@@ -3,7 +3,7 @@ title: Go make和new初始化
 date: 2020-02-20
 sidebar: 'auto'
 categories:
-- Linux
+- linux
 tags:
 - Go
 publish: true
