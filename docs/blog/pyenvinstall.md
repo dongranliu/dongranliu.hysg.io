@@ -97,6 +97,9 @@ touch ~/.pip/pip.conf
 + 在上述文件中添加:
 
 ```bash
+[list]
+format=columns
+
 [global]
 index-url = https://mirrors.aliyun.com/pypi/simple/
 
